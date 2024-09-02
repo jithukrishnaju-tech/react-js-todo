@@ -1,0 +1,74 @@
+.todo-box {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(249, 237, 250);
+}
+
+.header-name {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+/* .todo-class {
+  text-align: left;
+} */
+body {
+  background-color: rgb(249, 237, 250);
+}
+.header {
+  text-align: center;
+  background-color: rgba(154, 61, 212, 0.579);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* margin-bottom: 10px; */
+}
+.todo-content {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.input-box {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(207, 194, 219);
+  border: none;
+}
+.btn {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: rgb(190, 149, 228);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(70, 70, 70, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+.todo-list {
+  margin: 10px;
+  background-color: rgb(198, 173, 222);
+  padding: 5px;
+}
+.todo-list:hover {
+  box-shadow: 0 4px 8px 0 rgba(70, 70, 70, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.list-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: rgb(211, 183, 238);
+  padding: 7px;
+  /* cursor: pointer; */
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.list-div:hover {
+  box-shadow: 0 4px 8px 0 rgba(70, 70, 70, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+.list-btn {
+  cursor: pointer;
+}
